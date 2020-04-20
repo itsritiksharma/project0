@@ -1,0 +1,32 @@
+h1{
+    color:blue;
+    margin: 30px;
+    font-family:Arial
+}
+div img {
+
+    border-radius: 50%;
+    margin: 30px;
+}
+#hyperlink,p{
+    background-color: pink;
+    width: 150px;
+    margin: 30px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial;
+    border: 5px dotted red;
+}
+#table,table{
+    border: 2px solid black;
+    width: 50%;
+    border-collapse: collapse;
+}
+#tabel,th,td{
+    border:1px solid black;
+    text-align: center;
+}
+th{
+    background-color:lightgray;
+}
