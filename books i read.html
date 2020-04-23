@@ -2,17 +2,50 @@
 <html>
     <head>
         <title>My Webpage!</title>
+        <link rel="stylesheet" href="nesting.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <style>
+            body{
+                background-image:url("background.jpg");
+                background-repeat:no repeat;
+                background-size:cover;
+                background-attachment:fixed;
+            }
+        </style>
+
     </head>
     <body>
-        <div>
-            <ol>
-                <h3>Books by Amish</h3>
+        <div class="rounded" style="background-color:lightgrey;padding:5%; margin:10%; opacity:0.7;">
+            <ul>
+                <h1 style="text-align:center;">Books</h1>
+                    <hr>
+                <h4>Books by Amish</h4>
+                <ul>
+                <h5>Shiva Trilogy</h5>
+                <ol>
+                    
                 <li>The oath of Vayuputras</li>
                 <li>The Nagas</li>
+                
+                <li>Immortals of Meluha</li>
+                </ol>
+                <h5>Ram Trilogy</h5>
+                <ol>
+                   
                 <li>Ram/Scion of Ikshvaku</li>
-                <h3>Other books</h3>
+                </ol>
+            </ul>
+                <h4>Other books</h4>
+                <ol>
                     <li>Poonachi</li>
                     <li>A brief history of time</li>
+                    <li>IT by stephen king</li>
+                </ol>
+            </ul>
+            <div style="text-align:center;">
+        <a href="project.html"><button type="button" class="btn btn-primary" type="submit">Back</button></a>
+        </div>
         </div>
 
     </body>
