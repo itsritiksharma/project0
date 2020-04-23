@@ -1,0 +1,76 @@
+$m: 30px;       
+%padding{
+    padding:20px;
+}
+body{
+    background-image:url("background.jpg");
+   background-repeat:no repeat;
+   background-size:cover;
+    background-attachment:fixed;
+}
+h1{
+    color:teal;
+    margin: $m;
+    font-family:Arial;
+}
+
+#image h1{
+    text-align: center;
+}
+
+.important{
+    font-weight: bold;
+    font-size: 20px;
+}
+#hyperlinks a{
+    margin: $m;
+}   
+
+button{
+    background-color: white;
+}
+button:hover{
+    background-color: lightgrey;
+}
+button::before{
+    content:"\21d2";
+    font-weight: bold;
+}
+@media print{
+    .important{
+        display: none;
+    }
+}
+@media (min-width: 960px){
+    #heading h1::before{
+        content: "Welcome to My first Webpage.";
+        
+    }
+    }
+@media (max-width: 959px){
+    #heading h1::before{
+        content:"My webpage!";
+        
+    }
+}
+.progress  div{
+        @extend %padding;
+        width: 500px;
+}
+
+.grid {
+    background-color:teal;
+    display: grid;
+    @extend %padding;
+    margin:$m;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    background-color: white;
+    font-size: 20px;
+    @extend %padding;
+    text-align: center;
+}
