@@ -2,45 +2,87 @@
 <html>
     <head>
         <title>My webpage</title>
-        <link rel="stylesheet" href="style.css">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="variable.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
-    <div class="image">
-        <img src="ritik.jpg" alt="Avatar" style="width:50%">
-    </div>
-    <div class="hyperlinks">
-        <h1>Different links</h1>
-        <p><a href="books i read.html">Books that i read</a></p>
-        <p><a href="https://www.instagram.com/_mr._meeseeks_/">My instagram profile</a></p>
-        <p><a href="https://www.linkedin.com/in/ritik-sharma-Ob658516o">My linkedin profile</a></p>
-    </div>
-    <div class="table">
-        <table>
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-
-    </body>
+<body>
+    <div class="rounded" style="background-color:lightgrey;padding:5%; margin:10%; opacity:0.7";> 
+      <div id="heading" >
+          <h1 style="text-align:center;"></h1>   
+      </div>
+        
+      <div id="image">  
+        <a href="ritik.jpg"><img src="ritik.jpg" alt="Responsive image" class="rounded-circle mx-auto d-block" style="width: 20%;margin: 30px;" ></a>
+        <h1>Name: Ritik Sharma</h1>
+        <h1>Nationality: Indian</h1>    
+      </div> 
+    
+      <div>
+        <p class="rounded" style="color:white;font-size:20px;text-align:center;background-color:teal;padding:5px;">Hello! there. My name is Ritik Sharma. Me being an intellectual peson like to learn new things almost everyday. learning is a process of life that never stops. But the catch is I get bored of things very easily.</p>
+      </div>
+      <div id="hyperlinks">
+        <h1><u>Different links</u></h1>
+          <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                  <a href="books i read.html" style="font-size:large; "><button>Favourite books</button></a>
+                </div>
+                <div class="col-sm">
+                  <a href="Series.html"><button type="button" class="btn btn-info" data-toggle="tooltip" data-placemen="top" title="Instagram account">Series</button></a>
+                </div>
+                <div class="col-sm">
+                  <a href="Movies.html"><button type="button" class="btn btn-info" data-toggle="tooltip" data-placemen="top" title="linkedin profile">Movies</button></a>
+                </div>
+                <div class="col-sm">
+                  <a href="Animes.html" style="font-size:large;"><button type="button" class="btn btn-info" data-toggle="tooltip" data-placemen="top" title="Favourite books">Animes</button></a>
+                </div>
+            </div>
+      </div>
+      <hr color="white"  size="100px">
+      <h1><u>My work</u></h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;height:30rem;background-color: teal;text-align:center;">            
+              <div class="card-body">
+                <img src="photoshop.webp" class="card-img-top" alt="space" style="opacity:1">
+                <h3 class="card-title">Photoshop</h3>
+                <p class="card-text">This section includes my work in photoshop</p>
+                <a href="My work.html" class="btn btn-warning">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;height:30rem;background-color: teal;text-align:center;">
+              <div class="card-body">
+                <img src="photoshop.webp" class="card-img-top" alt="space" style="opacity:1">
+                <h3 class="card-title">Posters</h3>
+                <p class="card-text">This section includes different posters i made for my toastmasters club</p>
+                <a href="posters.html" class="btn btn-warning">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="important">
+        <div class="grid">
+          <h2 class="grid-item" style="font-weight:bold;">Academic</h2>
+          <h2 class="grid-item" style="font-weight:bold;">Year</h2>
+          <h2 class="grid-item" style="font-weight:bold;">Board</h2>
+          <div class="grid-item">10th</div>
+          <div class="grid-item">2015</div>
+          <div class="grid-item">CBSE</div>
+          <div class="grid-item">12th</div>
+          <div class="grid-item">2017</div>
+          <div class="grid-item">RBSE</div>
+          <div class="grid-item">B.Tech.</div>
+          <div class="grid-item">2021</div>
+          <div class="grid-item">RTU</div>
+        </div>
+      </div>
+   </div>
+   </div>
+</body>
 </html>
